@@ -1,0 +1,47 @@
+{
+	"process_metadata": {
+		"name": "PROC-001 Template Basic Process",
+		"description": "Template process information"
+	},
+	"global_variables": {
+		"g_var_1": true,
+		"g_var_2": 2
+	},
+	"applications": {
+		"desktop": {
+			"notepad": {
+				"local_path": "notepad.exe"
+			}
+		},
+		"web": {
+			"uipath": {
+				"uri": ""
+			}
+		}
+	},
+	"notifications": {
+		"email_success": {
+			"to": "",
+			"from": "",
+			"cc": "",
+			"bcc": ""
+		},
+		"email_application_exception": {
+			"to": "",
+			"from": "",
+			"cc": "",
+			"bcc": ""
+		},
+		"email_business_exception": {
+			"to": "",
+			"from": "",
+			"cc": "",
+			"bcc": ""
+		}
+	},
+	"assets":{
+		"templates":{
+			"maestro_1":"D:\\Storage\\Template.csv"
+		}
+	}
+}
