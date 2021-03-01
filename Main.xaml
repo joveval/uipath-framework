@@ -90,7 +90,7 @@
           <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,107.5 350,107.5 350,129.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <State x:Name="__ReferenceID4" sap2010:Annotation.AnnotationText="This state reads configuration parameters from diferent sources. Default is YAML format." DisplayName="Configuration Reading" sap:VirtualizedContainerService.HintSize="232,159" sap2010:WorkflowViewState.IdRef="State_3">
+      <State x:Name="__ReferenceID4" sap2010:Annotation.AnnotationText="This state reads configuration parameters from diferent sources. Default is JSON format." DisplayName="Configuration Reading" sap:VirtualizedContainerService.HintSize="232,159" sap2010:WorkflowViewState.IdRef="State_3">
         <State.Entry>
           <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="434,514" sap2010:WorkflowViewState.IdRef="TryCatch_1">
             <TryCatch.Try>
@@ -482,7 +482,7 @@
                                       <Literal x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="True" />
                                     </Transition.Condition>
                                     <Transition.To>
-                                      <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="In case of opened applications this endeavour is intended to close all for future executions." DisplayName="Close Applications" sap:VirtualizedContainerService.HintSize="484,494" sap2010:WorkflowViewState.IdRef="State_10" IsFinal="True">
+                                      <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="In case of opened applications this endeavour is intended to close all for future executions." DisplayName="Close Applications" sap:VirtualizedContainerService.HintSize="250,179" sap2010:WorkflowViewState.IdRef="State_10" IsFinal="True">
                                         <State.Entry>
                                           <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,339" sap2010:WorkflowViewState.IdRef="TryCatch_5">
                                             <TryCatch.Try>
